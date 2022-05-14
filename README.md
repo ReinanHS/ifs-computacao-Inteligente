@@ -70,4 +70,12 @@ Informações retirada do [intelligent system](https://www.techtarget.com/whatis
 
 ## Changelog
 
+Por favor, veja o [CHANGELOG](./CHANGELOG.md) para obter mais informações sobre o que mudou recentemente.
+
 ## Contribuições
+
+Por favor, veja o [CONTRIBUTING](./CONTRIBUTING.md) para obter mais informações
+
+## Licença
+
+A MIT License (MIT). Por favor, veja o [Arquivo de Licença](./LICENSE) para mais informações.
