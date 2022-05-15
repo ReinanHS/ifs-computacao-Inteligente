@@ -38,7 +38,7 @@ export default {
         backgroundImage: `url(${require("@/assets/media/garoto-bg-video.jpg")})`,
       },
       videoLink:
-        "https://vod-progressive.akamaized.net/exp=1652581252~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4480%2F24%2F622403307%2F2880202767.mp4~hmac=f30df1ea5ee37d197359551263c87269c8590ef90712c3758cbd500219e5a1c2/vimeo-prod-skyfire-std-us/01/4480/24/622403307/2880202767.mp4",
+        "https://firebasestorage.googleapis.com/v0/b/quickstart-1566913824070.appspot.com/o/pexels-ron-lach-9783954.mp4?alt=media&token=a528dd62-5c67-4b19-98a7-fa6cddf83404",
       header: {
         title: "Computação Inteligente",
         subtitle: "Documentação",
