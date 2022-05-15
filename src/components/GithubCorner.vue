@@ -30,7 +30,7 @@ export default {
   svg {
     fill: #0b1c2a;
     color: #fff;
-    position: absolute;
+    position: fixed;
     top: 0;
     border: 0;
     right: 0;

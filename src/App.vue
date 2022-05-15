@@ -1,6 +1,6 @@
 <template>
   <github-corner></github-corner>
-  <MenuVue></MenuVue>
+  <menu-vue></menu-vue>
   <router-view />
 </template>
 <script>
