@@ -3,44 +3,32 @@
     <section class="scroll-panels">
       <div class="scroll-panels-container" style="width: 200%">
         <article class="panel full-screen">
-          <Header></Header>
+          <video-slide
+            :videoLink="slides[0].videoLink"
+            :backgroundImage="slides[0].backgroundImage"
+            :subtitle="slides[0].subtitle"
+          >
+            <hero-heading title="Computação Inteligente" />
+          </video-slide>
         </article>
         <article class="panel full-screen">
-          <div class="container">
-            <div class="row">
-              <div class="col-6">
-                <img src="" alt="" />
-              </div>
-              <div class="col-6 d-flex flex-column">
-                <h2>Panel 2</h2>
-
-                <p class="step-description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Including versions of Lorem Ipsum.
-                </p>
-
-                <div class="panels-navigation">
-                  <div class="nav-panel" data-sign="minus">
-                    <a href="#panel-1" class="anchor">Prev</a>
-                  </div>
-                  <div class="nav-panel" data-sign="plus">
-                    <a href="#panel-3" class="anchor">Next</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <summary-slide></summary-slide>
         </article>
       </div>
     </section>
   </main>
 </template>
 <script>
-import Header from "../components/Header.vue";
+import SummarySlide from "../components/slides/SummarySlide.vue";
+import VideoSlide from "../components/slides/VideoSlide.vue";
+import HeroHeading from "../components/texts/HeroHeading.vue";
+import slides from "../data/slides";
 export default {
   name: "Home",
+  components: { VideoSlide, HeroHeading, SummarySlide },
   data() {
     return {
+      slides: slides,
       panels: [],
       panelActiveIndex: 0,
     };
@@ -74,7 +62,6 @@ export default {
       });
     },
   },
-  components: { Header },
 };
 </script>
 <style lang="scss" scoped>
