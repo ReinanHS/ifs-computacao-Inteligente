@@ -6,9 +6,7 @@ import "./assets/css/index.css";
 document.addEventListener(
   "DOMContentLoaded",
   function () {
-    createApp(App)
-    .use(router)
-    .mount("#app");
+    createApp(App).use(router).mount("#app");
   },
   false
 );
