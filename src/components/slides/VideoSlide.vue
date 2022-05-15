@@ -13,7 +13,10 @@
       </div>
     </div>
     <div class="section-right">
-      <div class="section-video-wrapper" :style="`url(${backgroundImage})`">
+      <div
+        class="section-video-wrapper"
+        :style="`background-image: url(${backgroundImage})`"
+      >
         <video :src="videoLink" loop muted autoplay v-if="videoLink"></video>
         <div class="section-img-overlay"></div>
         <div class="section-content">
@@ -25,7 +28,7 @@
 </template>
 <script>
 export default {
-  name: "Header",
+  name: "VideoSlide",
   props: {
     subtitle: String,
     videoLink: String,
