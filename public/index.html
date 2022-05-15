@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title>Documentação sobre computação inteligente</title>
   </head>
-  <body>
+  <body style="background-color: #0c1c29;">
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
-    <div id="app"></div>
+    <div id="app" v-cloak></div>
+    <div id="loader" style="width: 100%; height: 100%;">
+      <div class="loader-content" style="display: flex; width: 98vw; height: 98vh; justify-content: center; align-items: center; flex-flow: column;">
+        <img src="https://user-images.githubusercontent.com/28494067/168443671-cc484ef7-f918-46c5-b569-d40391387c19.png" class="flip-vertical-right" />
+      </div>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>

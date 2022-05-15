@@ -12,9 +12,9 @@ export default {
   data() {
     return {
       pageConfig: {
-        backgroundImage: `url(${require('@/assets/media/garoto-bg-video.jpg')})`,
-      }
-    }
+        backgroundImage: `url(${require("@/assets/media/garoto-bg-video.jpg")})`,
+      },
+    };
   },
 };
 </script>

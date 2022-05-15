@@ -330,3 +330,82 @@
     clip: rect(114px, 9999px, 104px, 0);
   }
 }
+/* 
+Animção menu
+*/
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes fadeout {
+  0% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@keyframes menu {
+  0% {
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  100% {
+    width: 250%;
+    height: 130%;
+    top: -10%;
+    left: -50%;
+  }
+}
+@keyframes menu2 {
+  0% {
+    width: 250%;
+    height: 130%;
+    top: -10%;
+    left: -50%;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+}
+@keyframes menu-items {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes menu-items2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
