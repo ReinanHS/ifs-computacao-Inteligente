@@ -68,6 +68,10 @@ Informações retirada do [intelligent system](https://www.techtarget.com/whatis
 
 ## Página
 
+![image](https://user-images.githubusercontent.com/28494067/168455422-a5899312-dfd3-467e-a41b-e8c735a89108.png)
+
+Visite o site: https://ifs-computacao-inteligente.vercel.app
+
 ## Changelog
 
 Por favor, veja o [CHANGELOG](./CHANGELOG.md) para obter mais informações sobre o que mudou recentemente.
